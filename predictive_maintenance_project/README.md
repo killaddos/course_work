@@ -10,12 +10,12 @@
 (https://archive.ics.uci.edu/dataset/601/predictive+maintenance+data
 ## Установка и запуск
 1. Клонируйте репозиторий:
-
- git clone 
-
-2. Установите зависимости:
+git clone https://github.com/killaddos/course_work.git
+2. Перейдите в папку проекта:
+ cd predictive_maintenance_project
+3. Установите зависимости:
  pip install -r requirements.txt
-3. Запустите приложение:
+4. Запустите приложение:
  streamlit run app.py
 ## Структура репозитория
 - `app.py`: Основной файл приложения.
@@ -25,5 +25,4 @@
 - `data/`: Папка с данными.
 - `README.md`: Описание проекта.
 ## Видео-демонстрация
-[Ссылка на видео](video/demo.mp4) или встроенное видео ниже:
-<video src="video/demo.mp4" controls width="100%"></video>
+[Ссылка на видео](https://www.youtube.com/watch?v=VWyIDc6x-ho)
